@@ -1,7 +1,73 @@
 {
-    "users": [
-        {
-            "id":"1,"
-        }
-    ]
+  "users": [
+    {
+      "id": "1"
+    },
+    {
+      "id": "5751",
+      "eventName": "Tennis",
+      "description": "This is Tennis",
+      "category": "tennis"
+    },
+    {
+      "id": "1785",
+      "eventName": "Football",
+      "description": "This is Football",
+      "category": "football"
+    },
+    {
+      "id": "2547",
+      "eventName": "Hockey",
+      "description": "This is Hockey",
+      "category": "hockey"
+    },
+    {
+      "id": "8994",
+      "eventName": "Cricket",
+      "description": "This is Cricket",
+      "category": "cricket"
+    },
+    {
+      "id": "6454",
+      "eventName": "Badminton",
+      "description": "This is Badminton",
+      "category": "badminton"
+    },
+    {
+      "id": "8512",
+      "eventName": "Athletics",
+      "description": "This is Athletics",
+      "category": "athletics"
+    },
+    {
+      "id": "2578",
+      "eventName": "Kick-boxing",
+      "description": "This is Kick-boxing",
+      "category": "kick-boxing"
+    },
+    {
+      "id": "9424",
+      "eventName": "Marathon",
+      "description": "This is Marathon",
+      "category": "marathon"
+    },
+    {
+      "id": "cca7",
+      "eventName": "Cricket",
+      "description": "This is held on may 3",
+      "category": "cricket"
+    },
+    {
+      "id": "b492",
+      "eventName": "Cricket",
+      "description": "This is held on may 3",
+      "category": "cricket"
+    },
+    {
+      "id": "580b",
+      "eventName": "Football",
+      "description": "This is held on may4",
+      "category": "football"
+    }
+  ]
 }
