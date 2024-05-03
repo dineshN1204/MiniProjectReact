@@ -11,3 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bg-img{
+  background-image: url('https://thatsallsport.com/wp-content/uploads/2022/08/Multiple-Athletes-From-Different-Sporting-Events.png');
+}
