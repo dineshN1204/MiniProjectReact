@@ -8,13 +8,13 @@ export default function AddEvents() {
     const handleAddEvents = (e) => {
         e.preventDefault()
         if (eventName && category !== "") {
-            axios.post(`http://localhost:3002/users`, {
+            axios.post(`http://localhost:3001/users`, {
                 eventName, description, category
             })
                 .then(res => { console.log(res) })
                 .catch(err => { console.log(err) })
         } else alert('Please fill all the required fields')
-        setEventName('');
+        setEventName('')
         setDescription('');
         setCategory('')
     }
@@ -29,13 +29,14 @@ export default function AddEvents() {
                 <select value={category} onChange={(e) => { setCategory(e.target.value) }} aria-required='true'>
                     <option value='select-an-option'>Select an option</option>
                     <option value='tennis'>Tennis</option>
+                    <option value='volleyball'>Volleyball</option>
+                    <option value='basketball'>Basketball</option>
                     <option value='cricket'>Cricket</option>
                     <option value='football'>Football</option>
                     <option value='hockey'>Hockey</option>
                     <option value='marathon'>Marathon</option>
                     <option value='badminton'>Badminton</option>
                     <option value='athletics'>Athletics</option>
-                    <option value='badminton'>Badminton</option>
                     <option value='kick-boxing'>Kick-boxing</option>
                 </select><br />
                 <button type='submit'>Add Events</button>
